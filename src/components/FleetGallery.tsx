@@ -7,7 +7,7 @@ const fleets = [
     highlight: "Opticruise Transmission",
     description: "Kenyamanan maksimal dengan perpindahan gigi halus dan suspensi udara premium.",
     icon: <Zap className="text-gumara-orange" />,
-    image: "/asset/scania_imgupscaler.ai_Penajam_2K.png",
+    image: `${import.meta.env.BASE_URL}asset/scania_imgupscaler.ai_Penajam_2K.png`,
     alt: "Gumara Transport Scania K360IB Opticruise Transmission"
   },
   {
@@ -15,7 +15,7 @@ const fleets = [
     highlight: "German Engineering & Safety",
     description: "Keamanan tingkat tinggi dengan teknologi pengereman ABS dan sasis tangguh khas Jerman.",
     icon: <Shield className="text-gumara-orange" />,
-    image: "/asset/marcy_imgupscaler.ai_Penajam_2K.png",
+    image: `${import.meta.env.BASE_URL}asset/marcy_imgupscaler.ai_Penajam_2K.png`,
     alt: "Gumara Transport Mercedes-Benz OH Series Premium Bus"
   },
   {
@@ -23,7 +23,7 @@ const fleets = [
     highlight: "Agility & Comfort",
     description: "Pilihan tepat untuk rombongan keluarga dengan aksesibilitas tinggi ke berbagai medan.",
     icon: <Users className="text-gumara-orange" />,
-    image: "/asset/bus4.png",
+    image: `${import.meta.env.BASE_URL}asset/bus4.png`,
     alt: "Gumara Transport Premium Medium Bus"
   }
 ];

@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img 
-            src="/asset/logo6.png" 
+            src={`${import.meta.env.BASE_URL}asset/logo6.png`}
             alt="Gumara Transport Logo" 
             className="h-10 w-auto"
             onError={(e) => {
