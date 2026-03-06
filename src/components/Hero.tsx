@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-neutral-950/90"></div>
         <img 
-          src="/asset/bus4.png" 
+          src="/asset/scania_imgupscaler.ai_Penajam_2K.png" 
           alt="Gumara Transport Scania K360IB Hero" 
           className="w-full h-full object-cover opacity-40"
           onError={(e) => {
@@ -70,7 +70,7 @@ export default function Hero() {
           <div className="absolute -inset-4 metallic-gradient opacity-20 blur-3xl rounded-full"></div>
           <div className="relative glass-panel p-4 rounded-[2.5rem] rotate-3 hover:rotate-0 transition-transform duration-700">
             <img 
-              src="/asset/bus6.png" 
+              src="/asset/bus4.png" 
               alt="Gumara Transport Premium Bus" 
               className="rounded-[2rem] shadow-2xl"
               onError={(e) => {

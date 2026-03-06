@@ -25,7 +25,7 @@ export default function Navbar() {
           <img 
             src="/asset/logo6.png" 
             alt="Gumara Transport Logo" 
-            className="h-8 w-auto"
+            className="h-10 w-auto"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiNGRjhDMDAiLz48dGV4dCB4PSIxNiIgeT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzE3MTcxNyIgdGV4dC1hbmNob3I9Im1pZGJsZSI+RzwvdGV4dD48L3N2Zz4=';
