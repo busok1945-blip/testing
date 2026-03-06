@@ -70,7 +70,7 @@ export default function Hero() {
           <div className="absolute -inset-4 metallic-gradient opacity-20 blur-3xl rounded-full"></div>
           <div className="relative glass-panel p-4 rounded-[2.5rem] rotate-3 hover:rotate-0 transition-transform duration-700">
             <img 
-              src={`${import.meta.env.BASE_URL}asset/bus4.png`}
+              src={`${import.meta.env.BASE_URL}asset/bus6.png`}
               alt="Gumara Transport Premium Bus" 
               className="rounded-[2rem] shadow-2xl"
               onError={(e) => {

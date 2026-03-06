@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <img 
-              src="/asset/logo6.png" 
+              src={`${import.meta.env.BASE_URL}asset/logo6.png`}
               alt="Gumara Transport Logo" 
               className="h-10 w-auto"
               onError={(e) => {
@@ -39,7 +39,7 @@ export default function Footer() {
               <p>0852-9046-4191</p>
             </div>
             <a 
-              href="https://www.google.com/maps/search/Jl.+Raya+Semarang+-+Boja+Km.+2,+Boja,+Kendal" 
+              href="https://maps.app.goo.gl/tVRSsXS6sVKnsmac6" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block text-gumara-orange hover:underline font-medium"
